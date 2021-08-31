@@ -1,0 +1,27 @@
+{
+  "name": "pruduct-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getProductsListHandler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-source-map-support": "^2.1.3",
+    "jest": "^27.1.0",
+    "serverless-webpack": "^5.5.1",
+    "webpack": "^5.51.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
